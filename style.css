@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: teal;
+  font-family: cursive;
+}
+.top_handing {
+  color: yellow;
+  text-align: center;
+  font-weight: 600;
+}
+#error {
+  text-align: center;
+  color: darkred;
+  font-size: 20px;
+}
+textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid;
+  text-align: center;
+}
+.add_note {
+  color: #fff;
+  background-color: saddlebrown;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+}
+.add_note:hover {
+  background-color: blue;
+}
+.second_handing {
+  text-align: center;
+  color: white;
+  margin: 2rem 0 19px 0px;
+}
+#note_card {
+  background-color: transparent;
+  border: none;
+}
+.card {
+  margin: 10px 0;
+}
+.delete_btn {
+  color: #fff;
+  background-color: #974949;
+  border: none;
+  padding: 7px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.delete_btn:hover {
+  background-color: tomato;
+}
